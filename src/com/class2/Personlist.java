@@ -18,32 +18,7 @@ public class Personlist extends Person {
         customerName=input.nextLine();
         System.out.println("Enter accNumber");
         accNumber=input.nextInt();
-        Pattern pattern = Pattern.compile("\\d{6}");
-        /*try{
-            System.out.print("Enter customer code: ");
-            String code = input.nextLine();
 
-            if(code.length() != 5) {
-                throw new Exception("Code must be characters");
-            }
-            this.customerCode = code;
-
-            System.out.print("Enter account number: ");
-            String accNumber = input.nextLine();
-
-            if(!accNumber.startsWith("100")) {
-                throw new Exception("Account number must be start with 100");
-            }
-
-            Matcher matcher = pattern.matcher(accNumber);
-            if(!matcher.matches()) {
-                throw new Exception("Account number must be 6 digits");
-            }
-
-
-        }catch (Exception e){
-            throw new Exception(e.getMessage());
-        }*/
 
     }
 
