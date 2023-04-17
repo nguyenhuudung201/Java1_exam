@@ -11,7 +11,7 @@ public class Account {
     public Account() {
         list = new ArrayList<Person>();
     }
-    public void addNewPerson() throws Exception {
+    public void addNewPerson() {
         Person newPerson = null;
         newPerson= new Personlist();
         newPerson.input();

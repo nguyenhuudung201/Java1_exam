@@ -10,7 +10,7 @@ public class Personlist extends Person {
         this.wallet = new Wallet();
     }
     @Override
-    public void input() throws Exception {
+    public void input()  {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter customerCode");
         customerCode=input.nextLine();
@@ -19,7 +19,7 @@ public class Personlist extends Person {
         System.out.println("Enter accNumber");
         accNumber=input.nextInt();
         Pattern pattern = Pattern.compile("\\d{6}");
-        try{
+        /*try{
             System.out.print("Enter customer code: ");
             String code = input.nextLine();
 
@@ -43,7 +43,7 @@ public class Personlist extends Person {
 
         }catch (Exception e){
             throw new Exception(e.getMessage());
-        }
+        }*/
 
     }
 

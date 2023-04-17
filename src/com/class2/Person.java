@@ -5,7 +5,7 @@ import java.util.Scanner;
 public abstract class Person {
     String customerCode;
     String customerName;
-   int accNumber;
+    int accNumber;
     long money;
     long amount;
     int type;
@@ -13,7 +13,7 @@ public abstract class Person {
     public Person(){
         this.wallet = new Wallet();
     }
-    public abstract void input() throws Exception;
+    public abstract void input() ;
     public int getId() {
         return accNumber;
     }
@@ -41,5 +41,5 @@ public abstract class Person {
             withdraw(money);
         }
     }
-    
+
 }
